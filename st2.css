@@ -1,0 +1,181 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+nav
+{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .5s;
+	background: #eae9e8;
+}
+/*nav.black
+{
+	background: #eae9e8;
+	height: 80px;
+	padding: 10px 50px;
+}*/
+nav .logo
+{
+	float: left;
+}
+nav .logo img
+{
+	height: 80px;
+	transition: .5s;
+}
+/*nav.black .logo img
+{
+	height: 60px;
+}*/
+nav ul
+{
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li
+{
+	list-style: none;
+}
+nav ul li a
+{
+	line-height: 80px;
+	color: #000000;
+	padding: 5px 20px;
+	margin-left: 5px;
+	transition: .5s;
+}
+p
+{
+	font-family: 'Josefin Sans', sans-serif;
+	display: inline;
+	padding-left: 8px;
+}
+/*nav.black ul li a
+{
+	line-height: 60px;
+}*/
+nav ul li a:hover
+{
+	/*background-color: #9fa09d*/
+	background-color: #ffffff;
+	/*border-radius: 50px;*/
+}
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   background:#262626;
+}
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+.videos
+{
+	width: 100%;
+	padding-top: 850px;
+	height: 1700px;
+	background-color: white;
+	justify-content: center;
+	text-align: center;
+}
+h1.head-vid
+{
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 50px;
+}
+.vid-3
+{
+	text-align: left;
+	padding-left: 260px;
+	padding-top: 50px;
+}
+.left-h1
+{
+	float: right;
+	padding-right: 355px;
+	padding-top: 20px;
+}
+.left-h2
+{
+	float: right;
+	padding-right: 290px;
+	padding-top: 20px;
+}
+.audios
+{
+	width: 100%;
+	height: 1200px;
+	background-color: #8c2008;
+}
+.container
+{
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  animation: animate 40s ease-in-out infinite;
+  background-size: cover;
+}
+.outer
+{
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  background: rgba(0,0,0,0.5);
+}
+@keyframes animate
+{
+  0%,100%
+  {
+    background-image: url(1.jpg);
+  }
+  20%
+  {
+    background-image: url(2.jpg);
+  }
+  30%
+  {
+    background-image: url(3.jpg);
+  }
+  40%
+  {
+    background-image: url(4.jpg);
+  }
+  50%
+  {
+    background-image: url(5.jpg);
+  }
+  60%
+  {
+    background-image: url(6.jpg);
+  }
+  70%
+  {
+    background-image: url(7.jpg);
+  }
+  80%
+  {
+    background-image: url(8.jpg);
+  }
+  90%
+  {
+    background-image: url(9.jpg);
+  }
+}
+.content-one
+{
+	width: 100%;
+	height: 800px;
+	color: red;
+}
